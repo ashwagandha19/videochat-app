@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: 'Flamante Roma';
+    src: url('./fonts/Flamante-Roma-Medium.ttf');
+  }
+
+body {
+    background-image: url('./images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+
+    font-family: 'Flamante Roma', sans-serif !important;
+    font-weight: 400;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#title {
+    text-align: center;
+}
+
+#title-container {
+    color: #fff;
+}
+
+#title {
+    background: -webkit-linear-gradient(#d81b60, #b91b55);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: inherit !important;
+}
+
+#notificationsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notificationsName {
+    margin-right: 2rem;
+}
+
+.input, .button {
+    font-family: inherit !important;
+}
+
+.button {
+    letter-spacing: .7px !important;
+    font-weight: 400 !important;
+}
+
+.video {
+    width: 450px;
+}
+
+@media all and (max-width: 1200px) {
+    body {
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .video {
+        width: 400px;
+    }
+}
